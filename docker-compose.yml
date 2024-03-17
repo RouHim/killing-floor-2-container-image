@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  killing-floor-2-server:
+    image: rouhim/killing-floor-2-server
+    build:
+      context: container-data
+      dockerfile: Containerfile
+    restart: unless-stopped
+    volumes:
+      - "./data:/data"
+    ports:
+      - "0.0.0.0:7777:7777/udp"
+      - "0.0.0.0:27015:27015/udp"
+      - "0.0.0.0:18080:8080/tcp"
+      - "0.0.0.0:20560:20560/tcp"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
