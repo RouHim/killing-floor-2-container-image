@@ -81,8 +81,8 @@ jobs:
 
       - name: Test the built image
         run: |
-          mkdir -p config/ data/
-          chmod 777 config/ data/
+          mkdir -p data/
+          chmod 777 data/
           timeout 10m bash .github/workflows/test-image.sh
 
       - name: Build and push container image

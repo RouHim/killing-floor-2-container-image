@@ -1,5 +1,8 @@
 FROM rouhim/steamcmd:latest
 
+ENV STEAM_APP_ID "232130"
+ENV STARTUP_COMMAND "./Binaries/Win64/KFGameSteamServer.bin.x86_64 kf-bioticslab"
+
 USER root
 
 # Install kf2 server requirements
@@ -11,8 +14,3 @@ RUN apt update && \
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 USER $USER
-
-ENV STEAM_APP_ID "232130"
-ENV STARTUP_COMMAND "./Binaries/Win64/KFGameSteamServer.bin.x86_64 kf-bioticslab"
-
-COPY pre.sh $USER_HOME/pre.sh
