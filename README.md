@@ -5,7 +5,7 @@
 <p align="center">
     <a href="https://github.com/RouHim/killing-floor-2-container-image/actions/workflows/pipeline.yml"><img src="https://github.com/RouHim/killing-floor-2-container-image/actions/workflows/pipeline.yml/badge.svg?branch=main" alt="Pipeline"></a>
     <a href="https://github.com/RouHim/killing-floor-2-container-image/actions/workflows/scheduled-security-audit.yaml"><img src="https://github.com/RouHim/killing-floor-2-container-image/actions/workflows/scheduled-security-audit.yaml/badge.svg?branch=main" alt="Pipeline"></a>
-    <a href="https://hub.docker.com/r/rouhim/killing-fllor-2-server"><img src="https://img.shields.io/docker/pulls/rouhim/killing-floor-2-server.svg" alt="Docker Hub pulls"></a>
+    <a href="https://hub.docker.com/r/rouhim/killing-floor-2-server"><img src="https://img.shields.io/docker/pulls/rouhim/killing-floor-2-server.svg" alt="Docker Hub pulls"></a>
     <a href="https://hub.docker.com/r/rouhim/killing-floor-2-server"><img src="https://img.shields.io/docker/image-size/rouhim/killing-floor-2-server" alt="Docker Hub size"></a>
     <a href="https://github.com/aquasecurity/trivy"><img src="https://img.shields.io/badge/trivy-protected-blue" alt="trivy"></a>
     <a href="https://hub.docker.com/r/rouhim/killing-floor-2-server/tags"><img src="https://img.shields.io/badge/ARCH-amd64-blueviolet" alt="os-arch"></a>
