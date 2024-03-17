@@ -89,3 +89,4 @@ Otherwise, the changes will be most likely overwritten.
 - SteamCMD Documentation: https://developer.valvesoftware.com/wiki/SteamCMD
 - Official dedicated server guide: https://wiki.killingfloor2.com/index.php?title=Dedicated_Server_(Killing_Floor_2)
 - Advanced dedicated server guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1110775580
+-  Killing Floor 2 Server Tool: https://github.com/darkdks/KF2ServerTool
