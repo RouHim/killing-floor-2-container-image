@@ -87,4 +87,5 @@ Otherwise, the changes will be most likely overwritten.
 - Built from: https://github.com/RouHim/killing-floor-2-container-image
 - Built to: https://hub.docker.com/r/rouhim/killing-floor-2-server
 - SteamCMD Documentation: https://developer.valvesoftware.com/wiki/SteamCMD
-- Dedicated server guide: https://wiki.killingfloor2.com/index.php?title=Dedicated_Server_(Killing_Floor_2)
+- Official dedicated server guide: https://wiki.killingfloor2.com/index.php?title=Dedicated_Server_(Killing_Floor_2)
+- Advanced dedicated server guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1110775580
