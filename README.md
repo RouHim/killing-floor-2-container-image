@@ -82,6 +82,15 @@ The `data` folder contains the game server data.
 Any modification to the server configuration should be done when the server is stopped.
 Otherwise, the changes will be most likely overwritten.
 
+Configuration via environment variables is also possible:
+
+| Name                   | Description                           | Example                 | Default value |
+|------------------------|---------------------------------------|-------------------------|---------------|
+| KF2_CUSTOM_MAPS        | A comma seperated list of mod map ids | `1234567891,1234567892` | ``            |
+| KF2_MODS               | A comma seperated list of mod ids     | `1234567891,1234567892` | ``            |
+| KF2_WEB_ADMIN_ENABLED  | Enable the web admin interface        | `true`                  | `false`       |
+| KF2_WEB_ADMIN_PASSWORD | The password for the web admin        | `password`              | ``            |
+
 # Resources
 
 - Built from: https://github.com/RouHim/killing-floor-2-container-image
@@ -90,4 +99,4 @@ Otherwise, the changes will be most likely overwritten.
 - Official dedicated server guide: https://wiki.killingfloor2.com/index.php?title=Dedicated_Server_(Killing_Floor_2)
 - Advanced dedicated server guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1110775580
 - Another server guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1110775580
--  Killing Floor 2 Server Tool: https://github.com/darkdks/KF2ServerTool
+- Killing Floor 2 Server Tool: https://github.com/darkdks/KF2ServerTool
