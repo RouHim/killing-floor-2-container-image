@@ -15,14 +15,19 @@ USER root
 # Install kf2 server requirements
 RUN apt update && \
     apt upgrade -y && \
-    apt install -y libcurl4 less
+    apt install -y curl libcurl4 less
 
 # Disable apt package manager
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 USER $USER
 
+# Install envini
+RUN LATEST_VERSION=$(curl -L -s -H 'Accept: application/json' https://github.com/RouHim/envini/releases/latest | \
+    sed -e 's/.*"tag_name":"\([^"]*\)".*/\1/') && \
+    curl -L -o $USER_HOME/envini https://github.com/RouHim/envini/releases/download/$LATEST_VERSION/envini-$LATEST_VERSION-x86_64 && \
+    chmod +x $USER_HOME/envini
+COPY envini_mapping.ini $USER_HOME/envini_mapping.ini
+
 # Copy pre script, that allows to declarative configure the server
 COPY pre.sh $USER_HOME/pre.sh
-COPY KF2ServerToolCMD $USER_HOME/KF2ServerToolCMD
-COPY KFServerToolCMD.ini $USER_HOME/KFServerToolCMD.ini

@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   killing-floor-2-server:
     image: rouhim/killing-floor-2-server
@@ -15,10 +13,22 @@ services:
       - "0.0.0.0:18080:8080/tcp"
       - "0.0.0.0:20560:20560/tcp"
     environment:
-      KF2_CUSTOM_MAPS: "2054449073"
-      KF2_MODS: "2875147606"
+#      KF2_CUSTOM_MAPS: "2054449073"
+#      KF2_MODS: "2875147606"
+#      KF2_WEB_ADMIN_ENABLED: "true"
+#      KF2_WEB_ADMIN_PASSWORD: "Admin"
+
+      KF2_SERVER_NAME: "FCGF Clan server"
+      KF2_SERVER_SUBSCRIBED_WORKSHOP_ITEMS: "2054449073,2875147606"
       KF2_WEB_ADMIN_ENABLED: "true"
       KF2_WEB_ADMIN_PASSWORD: "Admin"
+      KF2_DISABLE_TEAM_COLLISION: "true"
+      KF2_USED_FOR_TAKEOVER: "false"
+#      KF2_BANNER_LINK: "https://fcgf-clan.org"
+      KF2_SERVER_MOTD: "Welcome to FCGF Clan server"
+      KF2_CLAN_MOTTO: "FCGF Clan"
+      KF2_NET_SERVER_MAX_TICK_RATE: "60"
+      KF2_MAX_INTERNET_CLIENT_RATE: "100000"
     logging:
       driver: "json-file"
       options:
