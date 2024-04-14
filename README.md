@@ -84,19 +84,20 @@ Otherwise, the changes will be most likely overwritten.
 
 Configuration via environment variables is also possible:
 
-| Name                                   | Description                    | Example                          | Default value            |
-|----------------------------------------|--------------------------------|----------------------------------|--------------------------|
-| `KF2_SERVER_NAME`                      | Server name                    | `My Server`                      | `Killing Floor 2 Server` |
-| `KF2_SERVER_SUBSCRIBED_WORKSHOP_ITEMS` | Workshop items to subscribe to | `123456789`                      |                          |
-| `KF2_WEB_ADMIN_ENABLED`                | Enable web admin               | `true`                           | `false`                  |
-| `KF2_WEB_ADMIN_PASSWORD`               | Web admin password             | `password`                       |                          |
-| `KF2_DISABLE_TEAM_COLLISION`           | Disable team collision         | `true`                           | `false`                  |
-| `KF2_USED_FOR_TAKEOVER`                | Used for takeover              | `true`                           | `false`                  |
-| `KF2_BANNER_LINK`                      | Banner link                    | `https://example.com/banner.jpg` |                          |
-| `KF2_SERVER_MOTD`                      | Server message of the day      | `Welcome to my server!`          |                          |
-| `KF2_CLAN_MOTTO`                       | Clan motto                     | `My clan motto`                  |                          |
-| `KF2_NET_SERVER_MAX_TICK_RATE`         | Maximum tick rate              | `30`                             | `30`                     |
-| `KF2_MAX_INTERNET_CLIENT_RATE`         | Maximum internet client rate   | `30`                             | `30`                     |
+| Name                                   | Description                                                                       | Example                          | Default value            |
+|----------------------------------------|-----------------------------------------------------------------------------------|----------------------------------|--------------------------|
+| `KF2_SERVER_NAME`                      | Server name                                                                       | `My Server`                      | `Killing Floor 2 Server` |
+| `KF2_SERVER_SUBSCRIBED_WORKSHOP_ITEMS` | Workshop items to subscribe to                                                    | `123456789`                      |                          |
+| `KF2_WEB_ADMIN_ENABLED`                | Enable web admin                                                                  | `true`                           | `false`                  |
+| `KF2_WEB_ADMIN_PASSWORD`               | Web admin password                                                                | `password`                       |                          |
+| `KF2_DISABLE_TEAM_COLLISION`           | Disable team collision                                                            | `true`                           | `false`                  |
+| `KF2_USED_FOR_TAKEOVER`                | Used for takeover                                                                 | `true`                           | `false`                  |
+| `KF2_BANNER_LINK`                      | Banner link                                                                       | `https://example.com/banner.jpg` |                          |
+| `KF2_SERVER_MOTD`                      | Server message of the day                                                         | `Welcome to my server!`          |                          |
+| `KF2_CLAN_MOTTO`                       | Clan motto                                                                        | `My clan motto`                  |                          |
+| `KF2_NET_SERVER_MAX_TICK_RATE`         | Maximum tick rate                                                                 | `30`                             | `30`                     |
+| `KF2_MAX_INTERNET_CLIENT_RATE`         | Maximum internet client rate                                                      | `30`                             | `30`                     |
+| `FAST_BOOT`                            | If set to `true`, the server will not be installed / updated / validated on start | `true`                           | `false`                  |
 
 # Resources
 
