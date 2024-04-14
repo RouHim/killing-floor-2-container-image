@@ -13,7 +13,7 @@ services:
       - "0.0.0.0:18080:8080/tcp"
       - "0.0.0.0:20560:20560/tcp"
     environment:
-      FAST_BOOT: "true"
+      FAST_BOOT: "false"
       KF2_SERVER_NAME: "FCGF Clan server"
       KF2_SERVER_SUBSCRIBED_WORKSHOP_ITEMS: "2054449073,2875147606"
       KF2_WEB_ADMIN_ENABLED: "true"
