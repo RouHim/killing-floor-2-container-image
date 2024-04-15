@@ -31,3 +31,4 @@ COPY envini_mapping.ini $USER_HOME/envini_mapping.ini
 
 # Copy pre script, that allows to declarative configure the server
 COPY pre.sh $USER_HOME/pre.sh
+COPY configure_custom_maps.sh $USER_HOME/configure_custom_maps.sh

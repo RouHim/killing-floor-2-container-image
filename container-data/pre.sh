@@ -7,4 +7,4 @@ sed -i 's/\\/\//g' "/data/KFGame/Config/LinuxServer-KFEngine.ini"
 "$USER_HOME"/envini "$USER_HOME"/envini_mapping.ini
 
 # Add custom maps to server config
-./configure_custom_maps.sh
+"$USER_HOME"/configure_custom_maps.sh
