@@ -4,7 +4,7 @@
 #######################
 
 KF_SERVER_CONFIG=./data/KFGame/Config/LinuxServer-KFGame.ini
-KF_SERVER_CACHE_DIR=data/KFGame/Cache
+KF_SERVER_CACHE_DIR=./data/KFGame/Cache
 CUSTOM_MAPS=($(find $KF_SERVER_CACHE_DIR -name '*.kfm'))
 
 echo "Custom maps found: ${CUSTOM_MAPS[*]}"
