@@ -89,7 +89,7 @@ Configuration via environment variables is also possible:
 | `KF2_SERVER_NAME`                      | Server name                                                                       | `My Server`                      | `Killing Floor 2 Server` |
 | `KF2_SERVER_SUBSCRIBED_WORKSHOP_ITEMS` | Workshop items to subscribe to                                                    | `123456789`                      |                          |
 | `KF2_WEB_ADMIN_ENABLED`                | Enable web admin                                                                  | `true`                           | `false`                  |
-| `KF2_WEB_ADMIN_PASSWORD`               | Web admin password                                                                | `password`                       |                          |
+| `KF2_ADMIN_PASSWORD`                   | Password for admin login and web admin login                                      | `Password`                       |                          |
 | `KF2_DISABLE_TEAM_COLLISION`           | Disable team collision                                                            | `true`                           | `false`                  |
 | `KF2_USED_FOR_TAKEOVER`                | Used for takeover                                                                 | `true`                           | `false`                  |
 | `KF2_BANNER_LINK`                      | Banner link                                                                       | `https://example.com/banner.jpg` |                          |
@@ -103,6 +103,7 @@ Configuration via environment variables is also possible:
 
 - Built from: https://github.com/RouHim/killing-floor-2-container-image
 - Built to: https://hub.docker.com/r/rouhim/killing-floor-2-server
+- Based on: https://github.com/RouHim/steamcmd-container-image
 - SteamCMD Documentation: https://developer.valvesoftware.com/wiki/SteamCMD
 - Official dedicated server guide: https://wiki.killingfloor2.com/index.php?title=Dedicated_Server_(Killing_Floor_2)
 - Advanced dedicated server guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1110775580
