@@ -72,6 +72,13 @@ In order to check the server logs, use the following command:
 docker-compose logs -f
 ```
 
+## Update
+
+To update the server, just restart the container.
+The server checks for updates and validates on every boot per default.
+
+> To skip update and validation of the server files on every boot, set the `FAST_BOOT` env variable to `true`.
+
 ## Configuration
 
 The server configuration does not differ from the official server configuration.
