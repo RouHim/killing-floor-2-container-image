@@ -32,3 +32,9 @@ COPY --chown=$USER:$USER envini_mapping.ini $USER_HOME/envini_mapping.ini
 # Copy pre script, that allows to declarative configure the server
 COPY --chown=$USER:$USER pre.sh $USER_HOME/pre.sh
 COPY --chown=$USER:$USER configure_custom_maps.sh $USER_HOME/configure_custom_maps.sh
+
+# Expose ports
+EXPOSE 7777/udp
+EXPOSE 27015/udp
+EXPOSE 8080/tcp
+EXPOSE 20560/tcp
