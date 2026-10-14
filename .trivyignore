@@ -7,3 +7,9 @@
 CVE-2026-78667
 CVE-2026-78669
 CVE-2026-97031
+
+# Ignore AVD-DS-0031: ENV KF2_WEB_ADMIN_PASSWORD is an empty placeholder for
+# runtime injection. The actual password is passed at container runtime via
+# `docker run -e KF2_WEB_ADMIN_PASSWORD=...` or via Docker Compose.
+# No secret is baked into the image.
+AVD-DS-0031
